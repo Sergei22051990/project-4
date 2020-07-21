@@ -1,0 +1,279 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #BCE2E2;
+}
+
+.container {
+    width: 1150px;
+    margin: 0 auto;
+    padding: 0px 15px;
+    border: 3px solid #808080;
+    padding-bottom: 50px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sl-big-block-info {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.sl-big-block-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sl-big-block-info p {
+    margin-top: 15px;
+}
+
+.sl-country-name input {
+    width: 22%;
+    padding-left: 10px;
+    margin-left: 20px;
+}
+
+.sl-country-name select {
+    width: 22%;
+    padding-left: 10px;
+    margin-left: 126px;
+}
+
+.sl-tour select {
+    width: 22%;
+    padding-left: 10px;
+    margin-left: 160px;
+}
+
+.sl-tariff select {
+    width: 22%;
+    padding-left: 10px;
+    margin-left: 135px;
+}
+
+.sl-data-departure-box input {
+    width: 20%;
+}
+
+.sl-data-departure {
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+.sl-long-night {
+    padding-bottom: 15px;
+}
+
+.sl-data-box input {
+    width: 20%;
+    padding-left: 25px;
+}
+
+.sl-data-box {
+    position: relative;
+}
+
+.sl-bord-box {
+    margin-left: 150px;
+    position: absolute;
+    top: 90px;
+}
+
+.sl-border {
+    display: block;
+    border: 1px solid;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    background: black;
+    position: absolute;
+    top: -6px;
+}
+
+.sl-point-1 {
+    display: block;
+    border: 1px solid;
+    width: 250px;
+    height: 1px;
+    border-radius: 15px;
+    background: black;
+}
+
+.sl-point-2 {
+    display: block;
+    border: 1px solid;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    background: black;
+    position: absolute;
+    left: 240px;
+    top: -6px;
+}
+
+.sl-grown input {
+    width: 13%;
+    margin-left: 45px;
+}
+
+.sl-child input {
+    width: 13%;
+    margin-left: 80px;
+}
+
+.sl-gorizontal-bord {
+    border: 1px solid #808080;
+    margin: 20px 0px;
+}
+
+.sl-big-block-2 {
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.sl-option-box input {
+    padding-left: 10px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+.sl-city-box {
+    padding-bottom: 10px;
+}
+
+.sl-info-box-option {
+    border: 2px solid #808080;
+    padding: 10px 20px;
+    background: white;
+    width: 240px;
+    max-height: 465px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.sl-bord-vertical {
+    border: 1px solid #808080;
+    position: absolute;
+    height: 620px;
+    left: 65%;
+    top: -4%;
+}
+
+.sl-category-text {
+    margin-bottom: 10px;
+}
+
+.sl-sd-text {
+    margin: 3px;
+}
+
+.sl-eat-text {
+    margin: 10px 0px;
+}
+
+.sl-hotel-text {
+    padding-top: 10px;
+}
+
+.sl-box-hotel {
+    border: 2px solid #808080;
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    max-height: 400px;
+    overflow: auto;
+}
+
+.sl-filtr-text-hotel {
+    width: 90%;
+    margin: 15px 15px;
+    padding-left: 15px;
+    font-size: 18px;
+}
+
+.sl-color-bord {
+    background: #BCE2E2;
+}
+
+.sl-hotel-name {
+    padding: 10px 20px;
+}
+
+.sl-box-hotel input {
+    margin-right: 10px;
+    margin-bottom: 4px;
+}
+
+.sl-class-plane {
+    margin-bottom: 10px;
+}
+
+.sl-list-class-plane {
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.sl-seat-avail-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.sl-seat-avail-text {
+    padding: 10px 0px;
+}
+
+.sl-seat-avail-box input {
+    margin-right: 10px;
+    margin-bottom: 3px;
+}
+
+.sl-seat-name {
+    font-size: 18px;
+}
+
+.sl-big-box-money {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sl-box-money input {
+    margin-left: 15px;
+    margin-right: 5px;
+    margin-bottom: 3px;
+}
+
+.sl-box-money {
+    margin-top: 20px;
+}
+
+.sl-box-money label {
+    font-size: 18px;
+}
+
+.sl-text-money {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sl-search {
+    margin-left: 10px;
+    border: 2px solid #2C7DA7;
+    font-size: 20px;
+    font-weight: bold;
+    color: #2C7DA7;
+    background: inherit;
+    padding: 15px 30px;
+}
